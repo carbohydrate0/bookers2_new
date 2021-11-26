@@ -33,6 +33,8 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
       # t.datetime :locked_at
       
       t.string :name #nameカラムを追加
+      t.text :introduction #introductionカラムを追加
+      t.string :profile_image_id #profile image idカラムを追加
 
       t.timestamps null: false
     end

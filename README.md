@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+===========================================
+ActiveRecord::PendingMigrationError
+rails db:migrateをしていないことによるエラー
